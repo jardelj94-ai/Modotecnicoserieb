@@ -1,0 +1,21 @@
+MODO TÉCNICO SÉRIE B — COMPILAÇÃO PELO CELULAR
+
+Este projeto foi preparado para gerar o APK usando GitHub Actions (compilação na nuvem), sem AndroidIDE.
+
+PASSOS:
+1. No Redmi, baixe e extraia este ZIP.
+2. Crie uma conta gratuita em https://github.com/ (se ainda não tiver).
+3. No GitHub, crie um repositório novo chamado ModoTecnicoSerieB.
+4. Envie TODOS os arquivos e pastas deste projeto para o repositório, preservando a pasta .github/workflows/android-apk.yml.
+   Dica: no site do GitHub, use Add file > Upload files. Se o navegador não mostrar arquivos ocultos, envie a pasta .github separadamente ou use o GitHub em modo "site para computador".
+5. Abra a aba Actions do repositório.
+6. Escolha "Gerar APK Android" e toque em Run workflow.
+7. Aguarde ficar verde (sucesso). Abra a execução concluída e baixe o artefato "ModoTecnico-SerieB-APK".
+8. Extraia o ZIP baixado. Dentro dele estará app-debug.apk.
+9. Toque no APK no Redmi e permita instalar apps dessa fonte se o Android pedir.
+
+NOTAS:
+- A compilação ocorre nos servidores do GitHub; não precisa instalar AndroidIDE nem Gradle no Redmi.
+- O APK é de teste/debug e pode ser instalado no seu aparelho.
+- Este pacote ainda usa siglas provisórias em vez de escudos oficiais e não traz os elencos reais completos.
+- Para usar GitHub Actions, você precisa estar conectado à sua conta GitHub.
